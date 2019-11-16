@@ -1,0 +1,56 @@
+.banner{
+    &-text{
+        color: #222;
+        font-size: 25px;
+        margin: 0;
+        width: 150%;
+    }
+    &-text1{
+        color: #222;
+        font-size: 60px;
+        font-weight: bold;
+        font-family: 'Playfair Display', serif;
+        width: 150%;
+    }
+    &-btn{
+        color: white;
+        background: $color-primary;
+        width: 140px;
+        height: 40px;
+        text-align: center;
+        padding-top: 1.5%;
+        border: 1px solid $color-primary;
+        border-radius: 20px; 
+        transition: 0.3s all;
+        outline: none;
+    }
+    &-btn:hover{
+            outline: none;
+            background: #222;
+            border: 1px solid #222;
+            border-radius: 20px; 
+            transition: 0.3s all;
+    }
+    &-btn a{
+        color: white;
+    } 
+    &-text-animate{
+        
+    position: absolute;
+    top: 33%;
+    right: 53%;
+    text-align: left;
+    width: 500px;
+    }
+    img{
+
+    }
+
+}
+
+.slick-prev:before, .slick-next:before{
+    color: #222;
+}
+.slick-prev:before:hover, .slick-next:before:hover{
+    color: $color-primary !important;
+}

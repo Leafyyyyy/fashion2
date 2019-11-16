@@ -1,0 +1,18 @@
+.content-comment{
+    ul{
+        padding-top: 30px;  
+    }
+    &-link{
+       
+    }
+    a.nav.link{
+        border: none;
+    }   
+    .nav-tabs .nav-link.active {
+        text-decoration: underline ; 
+
+    }
+    .nav-tabs{
+        border: none;
+    }
+}

@@ -1,0 +1,490 @@
+/* respone */
+
+@media(max-width: 359.98px){
+    .quick-click .banner-text-animate {
+        right: -57% !important;
+    }
+    .quick-click .right-modal .d-flex select {
+        font-size: 11px;
+        padding: 0 !important;
+    }
+    .quick-click  #field1 button.add {
+        left: 134% !important;
+        top: 21%;
+        width: 26px;
+    }
+    .quick-click  #field1 button.sub {
+        left: -38% !important;
+        width: 26px;
+    }
+    .quick-click img#change-image {
+        
+        height: 224px !important;
+    }
+    .quick-click .modal-btn-zoom {
+        right: 35px !important;
+    }
+    .quick-click .right-modal .d-flex label {
+        font-size: 12px;
+    
+    }
+    .quick-click  .add-to-cart button {
+      
+        width: 100px;
+        
+    }
+    .detail{
+        .tab-content{
+            #menu1{
+                span{
+                    margin-left: 50px;
+                }
+                .p-l-4{
+                    padding-left: 0% !important;
+                }
+                .p-r-2{
+                    padding-right: 0% !important;
+                } 
+            }
+            #menu2{
+                    .p-l-3{
+                        padding-left: 0% !important;
+                    }
+                    .p-r-2{
+                        padding-right: 0% !important;
+                    }
+            }
+            p{
+                margin: 0;
+            }
+        }
+    }
+   
+}
+@media (min-width:360px) and (max-width:414.98px){
+    .quick-click .banner-text-animate {
+        right: -40% !important;
+    }
+    .quick-click .right-modal .d-flex select {
+        font-size: 11px;
+    }
+    .quick-click  #field1 button.add {
+        left: 113% !important;
+        top: 21%;
+    }
+    .quick-click  #field1 button.sub {
+        left: -38% !important;
+    }
+}
+@media (min-width:415px) and (max-width:575px){
+    .quick-click .banner-text-animate {
+        right: -20% !important;
+    }
+    .quick-click  #field1 button.add {
+        top: 20%;
+    }
+    .quick-click  #field1 button.sub {
+        left: -25% !important;
+    }
+    .quick-click .right-modal .d-flex select {
+        font-size: 14px;
+    }
+}
+@media (max-width: 575.98px) { 
+    .blog-banner h4 {
+        top: 39% !important;
+        left: 37% !important;
+ 
+    }
+    .about .content-about{
+        .d-flex{
+            display: block !important;
+        }
+        .how-bor2::before,.how-bor1::before{
+            content: none !important;
+        }
+    }
+    .drawer-footer-last{
+        margin: 0;
+    }
+    .detail-sec-name{
+        padding: 0 !important;
+    }
+    .content-modal{
+        img#change-image{
+            object-fit: contain !important;
+        }
+    }
+    .slick-next {
+        left: 88%;
+    }
+    .top-bar{
+        display: none;
+    }
+    .wrap-menu-desktop {
+        display: none;
+    }
+    .logo-mobile{
+        flex-grow: 1;
+        height: 80%;
+        position: relative;
+    }
+    .banner-text-animate{
+        right: 4%;
+    }
+    .banner-text1 {
+        width: 100%;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    .sec-banner{
+        width: 100%;
+    }
+    .product-menu-right {
+        float: left !important;
+        margin: 10px;
+    }
+    .footer-frist form{
+        width: 80%;
+    }
+    .banner-text1{
+        font-size: 42px;
+    }
+    .quick-click .modal-right-last {
+    }
+    .isotope-block-btn {
+      
+        padding-top: 1%;
+     
+    }
+    .quick-click img#change-image {
+        object-fit: cover;
+        width: 81%;
+        height: 300px;
+    }
+    .quick-click .modal-btn-zoom {
+       
+        right: 52px;
+  
+    }
+    .quick-click .right-modal .d-flex select {
+      padding-left: 10px;
+      margin: 0;
+    }
+    .quick-click  #field1 button.sub {
+        
+        left: -23%;
+     
+    }
+    .quick-click  #field1 button.add {
+    
+        left: 90%;
+       
+    }
+    .form-search{
+        width: 93%;
+    }
+    .detail{
+        .tab-content{
+            #menu1{
+                span{
+                    margin-left: 50px;
+                }
+                .p-l-4{
+                    padding-left: 20%;
+                }
+                .p-r-2{
+                    padding-right: 10%;
+                }
+            }
+            #menu2{
+                    .p-l-3{
+                        padding-left: 10%;
+                    }
+                    .p-r-2{
+                        padding-right: 10%;
+                    }
+            }
+            p{
+                margin: 0;
+            }
+        }
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .blog-banner h4 {
+        top: 43% !important;
+        left: 41% !important;
+ 
+    }
+    .about .content-about{
+        .d-flex{
+            display: block !important;
+        }
+        .how-bor2::before,.how-bor1::before{
+            content: none !important;
+        }
+    }
+    .about .content-about .how-bor2::before {
+   
+        height: 30% !important;
+        
+    } 
+    .about .content-about .how-bor1::before {
+        height: 20% !important;
+    }
+    .top-bar{
+        display: none;
+    }
+    .wrap-menu-desktop {
+        display: none;
+    }
+    .logo-mobile{
+        flex-grow: 1;
+        height: 80%;
+        position: relative;
+    }
+    .banner-text-animate{
+        right: 11%;
+    }
+    img#change-image {
+        width: 250px;
+        height: 370px;
+    }
+    .quick-click .modal-btn-zoom {
+        
+        right: 40px;
+   
+    }
+    .quick-click .right-modal .d-flex select {
+      
+        padding-left: 0; 
+      
+    }
+    .quick-click .d-flex {
+        margin: 0;
+    }
+    .quick-click  #field1 button.sub {
+    
+        left: -16%;
+     
+    }
+    .quick-click  #field1 button.add {
+       
+        left: 85%;
+      
+  }
+  .form-search{
+      width: 93%;
+  }
+  .detail{
+      .tab-content{
+          #menu1{
+              span{
+                  margin-left: 50px;
+              }
+              .p-l-4{
+                  padding-left: 20%;
+              }
+              .p-r-2{
+                  padding-right: 10%;
+              }
+          }
+          #menu2{
+            .p-l-3{
+                padding-left: 10%;
+            }
+            .p-r-2{
+                padding-right: 10%;
+            }
+          }
+          p{
+              margin: 0;
+          }
+      }
+  }
+} 
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .blog {
+           .text-continue{
+               margin-left: 10px;
+           }
+        .product-image .m-l-15{
+
+        margin-left: 20px;
+        a{
+            font-size: 10px;
+        }
+        
+    }
+    .side-menu{
+        padding: 0 !important;
+    }
+}
+    .detail{
+        .tab-content{
+            #menu1{
+                span{
+                    margin-left: 50px;
+                }
+                .p-l-4{
+                    padding-left: 20%;
+                }
+                .p-r-2{
+                    padding-right: 10%;
+                }
+            }
+            #menu2{
+              .p-l-3{
+                  padding-left: 10%;
+              }
+              .p-r-2{
+                  padding-right: 10%;
+              }
+            }
+            p{
+                margin: 0;
+            }
+        }
+    }
+    .top-bar{
+        display: none;
+    }
+    .wrap-menu-desktop {
+        display: none;
+    }
+    .banner-text-animate{
+        right: 33%;
+    }
+    .logo-mobile{
+        flex-grow: 1;
+        height: 80%;
+        position: relative;
+    }
+    img#change-image {
+        width: 340px;
+        height: 430px;
+    }
+    .quick-click  #field1 button.add {
+ 
+        left: 74%;
+      
+    }
+    .quick-click  #field1 button.sub{
+        left: 3%;
+    }
+    .quick-click  #field1 {
+      
+        left: 3%;
+    }
+    .form-search{
+        width: 93%;
+    }
+    button.owl-prev{
+        left: -4% !important;
+    }
+    button.owl-next{
+     right: -4% !important;
+    }
+    .about .content-about .how-bor2::before {
+   
+        height: 54% !important;
+        
+    } 
+    .about .content-about .how-bor1::before {
+        height: 45% !important;
+    }
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    .about .content-about .how-bor2::before {
+   
+        height: 71% !important;
+        
+    } 
+    .about .content-about .how-bor1::before {
+        height: 61% !important;
+    }
+    .blog {
+        &-content-left{
+            .by{
+                a{
+                    margin-left: 10px;
+                }
+            }
+        }
+        .product-image .m-l-15{
+
+        margin-left: 20px;
+        a{
+        }
+    }
+
+    }
+    button.owl-prev{
+        left: -4% !important;
+    }
+    button.owl-next{
+     right: -4% !important;
+    }
+    .top-bar{
+        display: none;
+    }
+    .wrap-menu-desktop {
+        display: none;
+    }
+    .sec-banner {
+        height: 540px !important; 
+    }
+    .logo-mobile{
+        flex-grow: 1;
+        height: 80%;
+        position: relative;
+    }
+    a.logo-mobile{
+        margin-left: 30px;
+    }
+    .sec-banner img {
+       object-fit: contain;
+    }
+    .banner-text-animate{
+        right: 45%;
+    }
+    .quick-click  #field1 button.sub {
+       
+        left: 17%;
+     
+    }
+    .quick-click  #field1 button.add {
+  
+        left: 67%;
+       
+    }
+    img#change-image {
+        width: 480px;
+        height: 480px;
+    }
+ }
+
+@media (min-width: 1200px) { 
+  .wrap-header-mobile{
+      display: none;
+  }
+  .menu-mobie{
+      display: none;
+  }
+  .sec-banner {
+    height: 540px;
+    }
+    .logo-mobile{
+        flex-grow: 1;
+        height: 80%;
+        position: relative;
+    }
+ }
+
+

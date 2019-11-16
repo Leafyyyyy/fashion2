@@ -1,0 +1,122 @@
+.btn{
+    &-features-left{
+        border: 1px solid #ddd;
+        background: #f3f3f3;
+        border-radius: 20px;
+        width: 140px;
+        text-align: center;
+        cursor: pointer;
+        min-height: 40px;
+        transition: .4s all;
+        font-size: 14px;
+        font-weight: 500;
+        padding-top: 8px;
+    }
+    &-features-left:hover{
+        background: $color-primary;
+        color: #fff;
+        transition: .4s all;
+    }
+    &-features-right-last{
+        border: 1px solid #222;
+        background: #222;
+        color: white;
+        height: 45px;
+        width: 280px;
+        border-radius: 45px;
+        outline: none;
+        transition: .4s;
+       &:hover{
+           background: $color-primary;
+           transition: .4s;
+           border-color: $color-primary;
+       }
+
+    }
+
+
+   
+   
+}
+button.owl-next{
+    position: absolute;
+    right: -3%;
+    top: 29%;
+    font-size: 50px !important;
+    height: 60px;
+    width: 30px !important  ;
+    &:hover{
+        background: transparent;
+        outline: none;
+    }
+    &:focus{
+        outline: none;
+    }
+}
+
+button.owl-prev{
+    position: absolute;
+    left: -3%;
+    top: 29%;
+    font-size: 50px !important;
+    height: 60px;
+    width: 30px !important  ;
+    &:focus{
+        outline: none;
+    }
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: transparent !important;
+    color: #6c7ae0 !important;
+}
+button.btn-features-right-last{
+    outline: none;
+}
+.text a:hover , .text:hover{
+    color: $color-primary !important;
+}
+
+.js-show-search, .js-show-filter {
+   
+    position: relative;
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    padding: 5px 0 0 13px;
+    transition: 0.3s all;
+}
+.js-show-search:hover, .js-show-filter:hover{
+    background: $color-primary;
+    color: white;
+    transition: 0.3s all;
+}
+.js-show-search{
+    padding: 5px 0 0 10px;
+
+}
+.show-filter, .show-search{
+    background-color: #f2f2f2;
+    border-color: #e7e7e7;
+    border: 1px solid #ddd;
+}
+
+button.btn-footer-subscribe{
+   
+        color: #fff;
+        background: #6c7ae0 ;
+        border: 1px solid #6c7ae0;
+        margin: 15px 0;
+        width: 140px;
+        height: 40px;
+        border-radius: 40px;
+        transition: .4s all;
+     
+}
+button.btn-footer-subscribe:hover{
+    color: #6c7ae0;
+    background: #fff;
+    transition: .4s all;
+    
+}

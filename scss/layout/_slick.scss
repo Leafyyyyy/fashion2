@@ -1,0 +1,14 @@
+.slick{
+    &-prev , &-next{
+        opacity: 0;
+        transition: 0.3s all;
+        color: #222;
+    }
+    &-slider:hover &-prev ,&-slider:hover &-next{
+        opacity: 1;
+        transition: 0.3s all;
+    }
+    &-prev:hover ,&-next:hover {
+        color: $color-primary !important;
+    }
+}

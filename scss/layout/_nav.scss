@@ -1,0 +1,87 @@
+.nav{
+    display: block;
+    &-text{
+        color: $color-text;
+        font-size: 13px;
+        padding: 10px 10px 10px 15px;
+        border-bottom: 1px solid $color-text;
+    }
+    &-big{
+        background: $color-black;
+    }
+    &-link{
+        color: $color-text;
+        font-size: 12px !important;
+        border-left: 1px solid $color-text;
+    }
+    &-link:last-child{
+        border-right: 1px solid $color-text;
+    }
+    &-item1 li{
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+        margin:0 0 5px 0;
+    }
+    &-item1 li:last-child{
+        margin: 0;
+    }
+    &-small{
+        background: white;
+    }
+    &-item1 a{
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+        width: 110px;
+    }
+    &-item1{
+        padding: 5px 15px;
+    }
+    &-icon{
+        color: white;
+        position: absolute;
+        right: 10%;
+        height: 20px;
+        width: 20px;
+        text-align: center;
+    }
+    &-icon:target{
+        transform: rotate(90deg);
+    }
+    &-main-menu-mobile{
+        background: $color-primary;
+    }
+    &-label2{
+        
+            position: relative;
+        ::after{
+            content: "hot";
+            position: absolute;
+            font-size: 10px;
+            line-height: 15px;
+            text-align: center;
+            color: #fff;
+            padding: 0 4px;
+            border-radius: 7px;
+            min-width: 32px;
+            height: 15px;
+            text-transform: uppercase;
+            background: #f74877;
+            top: 2px;
+            right: 15px;
+        }
+    }
+  
+    
+}   
+.nav-link:last-child{
+    border: none !important;
+}
+
+.menu-mobile .right-top-bar{
+    padding: 7px 0 0 15px;
+}
+.right-top-bar:last-child{
+
+}

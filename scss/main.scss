@@ -1,0 +1,28 @@
+@import "abstracts/mixins";
+@import "abstracts/variable";
+
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/ultilities";
+
+@import "component/button";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/nav";
+@import "layout/old.scss";
+@import "layout/slick";
+@import "layout/banner";
+@import "layout/modal.scss";
+@import "layout/grid";
+@import "layout/form.scss";
+@import "layout/drawer";
+@import "layout/icon";
+@import "layout/isotope";
+@import "layout/slick";
+@import "layout/respon";
+@import "layout/table";
+@import "layout/content-comment";
+
+@import "pages/index.scss";

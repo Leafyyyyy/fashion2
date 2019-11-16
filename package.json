@@ -1,0 +1,17 @@
+{
+  "name": "month2new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "isotope-layout": "^3.0.6",
+    "node-sass": "^4.12.0",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

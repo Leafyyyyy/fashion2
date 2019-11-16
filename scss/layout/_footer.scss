@@ -1,0 +1,119 @@
+.footer{
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    .container{
+        padding: 0;
+    }
+    height: 100%;
+    background: #222;
+    padding: 70px 0 32px 0;
+    color: white;
+    &-text-hover:hover{
+        color: $color-primary;
+
+    }
+    &-last{
+        width: 100%;
+        text-align: center;
+        
+        &-img {
+            
+            img{
+                width: 30px;
+                height: 20px;
+                border-radius: 3px;
+                margin: 0 3px;
+            }
+        }
+    }
+  
+    ul{
+        li{
+                line-height: 2;
+                list-style-type: none;
+            a{
+                color: #b2b2b2;
+                font-size: 12px;
+                font-weight: 500;
+            }
+             span{
+                color: #b2b2b2;
+                font-size: 12px;
+                font-weight: 500;
+             }
+             input{
+                 border: 1px solid transparent;
+                 color: #ddd;
+                 background: transparent;
+                 outline: none;
+                 border-bottom: 1.5px solid white;
+                    border-radius: unset;
+                    &:focus{
+                        color: #ddd;
+                        box-shadow: none;
+                        background: transparent;
+                        outline: none;  
+                        border-color: transparent;
+                        +.focus-border-bottom{
+                                width: 100%;
+                                background-color: $color-primary;       
+                        }
+                    }
+             }
+             form{
+                 position: relative;
+             }
+             .focus-border-bottom{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    height: 1.5px;
+                    width: 0%;
+                    background-color: #b2b2b2;
+                    transition: .6s all ;
+             }
+             input::placeholder{
+                 font-size: 14px;
+                 color: #ddd;
+             }
+             
+             
+        }
+        .n-l-h{
+            line-height: 1.4 !important;
+        }
+        p{
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 14px;
+            
+        }
+    }
+    &-icon{
+        a{
+            font-size: 15px !important;
+        margin: 10px;
+
+        }
+        li a{
+            text-align: left;
+        }
+        margin: 20px 0;
+        text-align: left;
+    }
+    &-frist{
+        width: 100%;
+        display: flex;
+    }
+    .col-md-3{
+        padding: 0;
+    }
+    &-last-img{
+        display: inline-flex;
+        padding: 0;
+    }
+    &-coppyright{
+        font-size: 12px;
+        color: #b2b2b2;
+    }
+}
