@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "isotope-layout": "^3.0.6",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "sweetalert": "^2.1.2"
   },
   "devDependencies": {},
